@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+body {
+  background: url(https://s.abcnews.com/images/International/london-protest-sh-rc-200603_hpMain_16x9_992.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: linear-gradient(
+    70deg,
+    rgba(17, 79, 6, 75%),
+    rgba(25, 158, 3, 75%)
+  );
+  font-family: "Roboto", sans-serif;
+  color: white;
+  border-radius: 5px;
+}
+
+#title {
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  margin: 10px 0px 5px 0px;
+}
+
+#description {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+
+p {
+  font-weight: bold;
+  font-size: inherit;
+}
+
+.survey {
+  margin: auto 150px auto 150px;
+  font-size: 18px;
+}
+
+input {
+  border-radius: 3px;
+}
+
+.form-group {
+  display: grid;
+}
+
+label {
+  padding: 5px;
+}
+
+#dropdown {
+  font-family: inherit;
+  border-radius: 3px;
+}
+
+.input-textarea {
+  min-height: 75px;
+  font-family: inherit;
+  font-size: 15px;
+  margin: 0px 0px 5px 0px;
+  border-radius: 3px;
+}
+
+.submit-button {
+  font-family: inherit;
+  position: center;
+  border-radius: 3px;
+  margin: 1px 0px 15px 0px;
+}
